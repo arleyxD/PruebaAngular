@@ -1,0 +1,29 @@
+<div class="container mt-5">
+    <div class="input-group mb-3">
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Search Marvel Characters"
+        [(ngModel)]="searchQuery"
+      />
+      <div class="input-group-append">
+        <button class="btn btn-outline-secondary" type="button" (click)="searchCharacters()">Search</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3" *ngFor="let character of characters">
+        <div class="card mb-4">
+          <img
+            [src]="character.thumbnail.path + '.' + character.thumbnail.extension"
+            class="card-img-top"
+            alt="{{ character.name }}"
+          />
+          <div class="card-body">
+            <h5 class="card-title">{{ character.name }}</h5>
+            <a [routerLink]="['/character', character.id]" class="btn btn-primary">View Details</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

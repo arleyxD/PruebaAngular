@@ -1,0 +1,168 @@
+{
+    "data": {
+      "results": [
+        {
+          "id": "1",
+          "name": "Spider-Man",
+          "thumbnail": {
+            "path": "https://i.annihil.us/u/prod/marvel/i/mg/a/f0/005885aaae147",
+            "extension": "jpg"
+          }
+        },
+        {
+          "id": "2",
+          "name": "Iron Man",
+          "thumbnail": {
+            "path": "https://i.annihil.us/u/prod/marvel/i/mg/9/c0/527bb7b37ff55",
+            "extension": "jpg"
+          }
+        },
+        {
+          "id": "3",
+          "name": "Thor",
+          "thumbnail": {
+            "path": "https://i.annihil.us/u/prod/marvel/i/mg/b/f0/5202887448860",
+            "extension": "jpg"
+          }
+        },
+        {
+          "id": "4",
+          "name": "Hulk",
+          "thumbnail": {
+            "path": "https://i.annihil.us/u/prod/marvel/i/mg/e/e0/538601ca33ab0",
+            "extension": "jpg"
+          }
+        },
+        {
+          "id": "5",
+          "name": "Black Widow",
+          "thumbnail": {
+            "path": "https://i.annihil.us/u/prod/marvel/i/mg/5/a0/520289857f57d",
+            "extension": "jpg"
+          }
+        },
+        {
+          "id": "6",
+          "name": "Captain America",
+          "thumbnail": {
+            "path": "https://i.annihil.us/u/prod/marvel/i/mg/3/60/523217993ea56",
+            "extension": "jpg"
+          }
+        },
+        {
+          "id": "7",
+          "name": "Doctor Strange",
+          "thumbnail": {
+            "path": "https://i.annihil.us/u/prod/marvel/i/mg/a/10/539927b9d52d7",
+            "extension": "jpg"
+          }
+        },
+        {
+          "id": "8",
+          "name": "Wolverine",
+          "thumbnail": {
+            "path": "https://i.annihil.us/u/prod/marvel/i/mg/6/40/527bb7b5a68d0",
+            "extension": "jpg"
+          }
+        },
+        {
+          "id": "9",
+          "name": "Deadpool",
+          "thumbnail": {
+            "path": "https://i.annihil.us/u/prod/marvel/i/mg/3/50/52696538f0a5e",
+            "extension": "jpg"
+          }
+        },
+        {
+          "id": "10",
+          "name": "Black Panther",
+          "thumbnail": {
+            "path": "https://i.annihil.us/u/prod/marvel/i/mg/9/03/537ba26276348",
+            "extension": "jpg"
+          }
+        },
+        {
+          "id": "11",
+          "name": "Scarlet Witch",
+          "thumbnail": {
+            "path": "https://i.annihil.us/u/prod/marvel/i/mg/8/80/52028986d7896",
+            "extension": "jpg"
+          }
+        },
+        {
+          "id": "12",
+          "name": "Vision",
+          "thumbnail": {
+            "path": "https://i.annihil.us/u/prod/marvel/i/mg/8/a0/50fef80700d5e",
+            "extension": "jpg"
+          }
+        },
+        {
+          "id": "13",
+          "name": "Ant-Man",
+          "thumbnail": {
+            "path": "https://i.annihil.us/u/prod/marvel/i/mg/3/20/5232158de5b16",
+            "extension": "jpg"
+          }
+        },
+        {
+          "id": "14",
+          "name": "Hawkeye",
+          "thumbnail": {
+            "path": "https://i.annihil.us/u/prod/marvel/i/mg/9/50/537bb9daf2512",
+            "extension": "jpg"
+          }
+        },
+        {
+          "id": "15",
+          "name": "Star-Lord",
+          "thumbnail": {
+            "path": "https://i.annihil.us/u/prod/marvel/i/mg/6/40/5306b4e1a320f",
+            "extension": "jpg"
+          }
+        },
+        {
+          "id": "16",
+          "name": "Gamora",
+          "thumbnail": {
+            "path": "https://i.annihil.us/u/prod/marvel/i/mg/c/70/53176f82d1444",
+            "extension": "jpg"
+          }
+        },
+        {
+          "id": "17",
+          "name": "Rocket Raccoon",
+          "thumbnail": {
+            "path": "https://i.annihil.us/u/prod/marvel/i/mg/8/40/50fec80a26cb1",
+            "extension": "jpg"
+          }
+        },
+        {
+          "id": "18",
+          "name": "Groot",
+          "thumbnail": {
+            "path": "https://i.annihil.us/u/prod/marvel/i/mg/9/00/530fede41b8f7",
+            "extension": "jpg"
+          }
+        },
+        {
+          "id": "19",
+          "name": "Drax",
+          "thumbnail": {
+            "path": "https://i.annihil.us/u/prod/marvel/i/mg/c/30/530fedfe0df48",
+            "extension": "jpg"
+          }
+        },
+        {
+          "id": "20",
+          "name": "Nick Fury",
+          "thumbnail": {
+            "path": "https://i.annihil.us/u/prod/marvel/i/mg/6/c0/5239cba6324aa",
+            "extension": "jpg"
+          }
+        }
+      ],
+      "total": 20
+    }
+  }
+  

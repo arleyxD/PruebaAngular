@@ -1,0 +1,49 @@
+{
+    "data": {
+      "results": [
+        {
+          "id": "1",
+          "name": "Spider-Man",
+          "description": "Peter Parker was bitten by a radioactive spider, giving him superhuman abilities.",
+          "thumbnail": {
+            "path": "https://i.annihil.us/u/prod/marvel/i/mg/a/f0/005885aaae147",
+            "extension": "jpg"
+          },
+          "comics": {
+            "items": [
+              { "name": "Amazing Spider-Man #1" },
+              { "name": "Amazing Spider-Man #2" }
+            ]
+          },
+          "events": {
+            "items": [
+              { "name": "Civil War" },
+              { "name": "Secret Wars" }
+            ]
+          }
+        },
+        {
+          "id": "2",
+          "name": "Iron Man",
+          "description": "Tony Stark, a billionaire industrialist and genius inventor, is Iron Man.",
+          "thumbnail": {
+            "path": "https://i.annihil.us/u/prod/marvel/i/mg/9/c0/527bb7b37ff55",
+            "extension": "jpg"
+          },
+          "comics": {
+            "items": [
+              { "name": "Iron Man #1" },
+              { "name": "Iron Man #2" }
+            ]
+          },
+          "events": {
+            "items": [
+              { "name": "Civil War" },
+              { "name": "Infinity War" }
+            ]
+          }
+        }
+      ]
+    }
+  }
+  
