@@ -142,3 +142,35 @@ export class HeaderComponent implements OnInit {
     });
   }
 }
+<nav class="menu p-0">
+  <ul class="menu-list">
+    <!-- Recorremos los módulos -->
+    <li *ngFor="let module of modulosLista" class="menu-item">
+      <!-- Al hacer clic en un módulo, se selecciona ese módulo y se despliega el submenú -->
+      <span class="menu-title" (click)="selectModulo(module)">{{ module.nombre }}</span>
+
+      <!-- Submenú que se muestra solo si el módulo está seleccionado -->
+      <ul class="submenu-list" *ngIf="selectedModulo === module">
+        <li *ngFor="let submodule of module.submodulos" class="submenu-item" (click)="selectSubmenu(submodule, $event)">
+          {{ submodule.nombre }}
+        </li>
+      </ul>
+    </li>
+  </ul>
+  
+  <!-- Mostrar error si existe -->
+  <div *ngIf="error" class="error">
+    {{ error }}
+  </div>
+</nav>
+
+selectModulo(module: Modulo) {
+  // Alternar selección del módulo
+  this.selectedModulo = this.selectedModulo === module ? null : module;
+}
+
+selectSubmenu(submodule: any, event: Event) {
+  event.stopPropagation(); // Evitar que el click en el submódulo cierre el submenú
+  // Navegación al submódulo
+  this.router.navigate([`/motor/${submodule.nombre}`]);
+}
