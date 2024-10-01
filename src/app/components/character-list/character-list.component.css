@@ -1,0 +1,35 @@
+.character-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .character-card {
+    width: 200px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .character-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .character-card h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .character-card a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .character-card a:hover {
+    text-decoration: underline;
+  }
+  
