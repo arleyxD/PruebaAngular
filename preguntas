@@ -1,4 +1,0 @@
-TS2345: Argument of type 'modulosLista' is not assignable to parameter of type 'Modulo'.
-  Property 'submodulos' is missing in type 'modulosLista' but required in type 'Modulo'.
-
-27         <span class="menu-title" (click)="selectModulo(module)">{{ module.nombre }}</span>
